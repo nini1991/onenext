@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: onenext
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Nithin
+Implementation-Vendor-Id: com.nachsterlabs
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/onenext
+Created-By: Maven Integration for Eclipse
+
