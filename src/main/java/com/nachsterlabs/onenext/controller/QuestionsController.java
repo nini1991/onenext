@@ -36,7 +36,7 @@ public class QuestionsController {
 */
 	    @PostMapping(value="/create",headers="Accept=application/json")
 	    public ResponseEntity<Void> createUser(@RequestBody Questions questions, UriComponentsBuilder ucBuilder){
-	        System.out.println("Creating User "+questions.getQuestion());
+	       // System.out.println("Creating User "+questions.getQuestion());
 	        questionsService.createQuestion(questions);
 	        HttpHeaders headers = new HttpHeaders();
 	        headers.setLocation(ucBuilder.path("/question/{id}").buildAndExpand(questions.getQuestionId()).toUri());
